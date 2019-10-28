@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1509123882397027259}
   - component: {fileID: 1672839536123203053}
   - component: {fileID: 7399690989323565187}
+  - component: {fileID: -7554817487418668783}
   m_Layer: 8
   m_Name: Enemy3
   m_TagString: Enemy
@@ -93,7 +94,7 @@ Animator:
   m_GameObject: {fileID: 4724360898948342909}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 31d0280e5fdcc8c43b1e56ad1995a84b, type: 2}
+  m_Controller: {fileID: 22100000, guid: 2ce2af7a81c477c47b081adf437c6531, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -149,3 +150,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.4, y: 0.5}
   m_EdgeRadius: 0
+--- !u!114 &-7554817487418668783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4724360898948342909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fdfdfd9bf7e7a7479269e6cb4a351c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: 0
+  exitPoint: {fileID: 336866278908099670, guid: 2c77f27e923034444937177d3e00ac8d,
+    type: 3}
+  waypoints: []
+  navigationUpdate: 0.01
