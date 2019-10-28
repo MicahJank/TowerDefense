@@ -49,3 +49,6 @@ TagManager:
   - name: Enemies
     uniqueID: 3760574855
     locked: 0
+  - name: SceneryAbove
+    uniqueID: 1942676507
+    locked: 0

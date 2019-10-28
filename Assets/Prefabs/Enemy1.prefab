@@ -165,14 +165,5 @@ MonoBehaviour:
   target: 0
   exitPoint: {fileID: 336866278908099670, guid: 2c77f27e923034444937177d3e00ac8d,
     type: 3}
-  waypoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  navigationUpdate: 1
+  waypoints: []
+  navigationUpdate: 0.01
