@@ -41,4 +41,10 @@ public class GameManager : MonoBehaviour {
         }
     }
 
+    public void decrementEnemies() {
+        if(enemiesOnScreen > 0) {
+            enemiesOnScreen -= 1;
+        }
+    }
+
 }

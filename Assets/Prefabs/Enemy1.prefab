@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4664347488731317976}
   - component: {fileID: -7670007286662291583}
   - component: {fileID: 4566819566103173489}
+  - component: {fileID: 3691970109591398236}
   m_Layer: 8
   m_Name: Enemy1
   m_TagString: Enemy
@@ -149,3 +150,29 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.3, y: 0.51}
   m_EdgeRadius: 0
+--- !u!114 &3691970109591398236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3989978758900478037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fdfdfd9bf7e7a7479269e6cb4a351c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: 0
+  exitPoint: {fileID: 336866278908099670, guid: 2c77f27e923034444937177d3e00ac8d,
+    type: 3}
+  waypoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  navigationUpdate: 1
