@@ -4,11 +4,11 @@
 
 public class Enemy : MonoBehaviour {
 
-    public int target = 0;
-    public Transform exitPoint;
-    public GameObject[] waypoints;
-    public float navigationUpdate;
+    [SerializeField] private Transform exitPoint;
+    [SerializeField] private GameObject[] waypoints;
+    [SerializeField] private float navigationUpdate;
 
+    private int target = 0;
     private Transform enemy;
     private float navigationTime = 0;
 
